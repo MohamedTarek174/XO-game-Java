@@ -45,7 +45,7 @@ public class Game {
         System.out.print("Enter player 2 symbol : ");
         char symbol2 = sca2.next().charAt(0);
         while(symbol2 == symbol1){
-            System.out.println("sorry,this symbol is already token");
+            System.out.println("sorry,this symbol is already taken");
             System.out.print("Enter player 2 symbol : ");
             symbol2 = sca2.next().charAt(0);
         }
